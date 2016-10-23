@@ -1,0 +1,15 @@
+<ion-view title="Bee" id="page5">
+  <ion-content padding="true" class="has-header" ng-controller="beeCtrl">
+    <canvas
+      id="MyCanvas"
+      ng-mousedown="downEvent($event)"
+      on-touch="downEvent($event)"
+      ng-mousemove="dragEvent($event)"
+      on-drag="dragEvent($event)"
+      ng-mouseup="upEvent($event)"
+      on-release="upEvent($event)"
+      height="400px"
+      style="background-color:#EAE8E8; width:100%;">
+    </canvas>
+  </ion-content>
+</ion-view>
